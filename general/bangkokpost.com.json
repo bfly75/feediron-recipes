@@ -5,13 +5,6 @@
     "author": "cwmke",
  	   "config": {
         "type": "xpath",
-        "xpath": "div[@class='articleContents']",
-        "cleanup": [
-            "div[@class='text-size']",
-            "div[@class='relate-story']",
-            "div[@class='text-ads']",
-            "script",
-            "ul"
-        ]
+        "xpath": "div[@class='article-content']"
     }
 }
